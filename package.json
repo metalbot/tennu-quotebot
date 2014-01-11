@@ -1,0 +1,18 @@
+{
+  "name": "quotebot",
+  "version": "0.0.0",
+  "description": "tennu module that grabs random quotes",
+  "main": "quotebot.js",
+  "scripts": {
+    "start": "./node_modules/tennu/bin/cli.js config.json -v"
+  },
+  "author": "metalbot (Marc Talbot)",
+  "license": "ISC",
+  "dependencies": {
+    "tennu": "~0.8.1",
+    "cheerio": "~0.13.1",
+    "request": "~2.31.0",
+    "hrandom": "~1.1.2",
+    "bluebird": "~0.11.6-0"
+  }
+}

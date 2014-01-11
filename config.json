@@ -1,0 +1,8 @@
+{
+	"server": "irc.coldfront.net",
+	"nick": "quotebot",
+	"user": "quotebot",
+	"trigger": "!",
+	"channels" : ["#tennu"],
+	"modules": ["quoter"]
+}
